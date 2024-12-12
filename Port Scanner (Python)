@@ -22,3 +22,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# This code was generated with the assistance of ChatGPT on [12/12/24].
+# Original prompt: "Write a Python script for a simple port scanner."
