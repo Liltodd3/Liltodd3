@@ -1,0 +1,16 @@
+pip install requests pandas
+
+
+import requests
+
+API_KEY = "your_api_key"
+url = "https://www.virustotal.com/api/v3/domains/google.com"
+
+headers = {"x-apikey": API_KEY}
+response = requests.get(url, headers=headers)
+
+if response.status_code == 200:
+    print(response.json())
+else:
+    print("Error:", response.status_code)
+
